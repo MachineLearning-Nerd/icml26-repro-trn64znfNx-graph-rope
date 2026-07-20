@@ -5,6 +5,8 @@ This repository independently reproduces the three theoretical claims in
 `2509.22259v4`). It is a theory certificate, not a substitute for the paper's
 benchmark training runs. It runs on CPU with the Python standard library.
 
+**FULL_GATE_READY: trn64znfNx**
+
 ## Source provenance
 
 - Primary artifact: arXiv v4 PDF, SHA-256

@@ -5,7 +5,7 @@
 <!-- trackio-cell
 {"type": "markdown", "id": "cell_95d01b56f205", "created_at": "2026-07-20T09:05:46+00:00", "title": "Executive summary", "pinned": true, "pinned_at": "2026-07-20T09:05:47+00:00"}
 -->
-## FULL_GATE_READY
+## FULL_GATE_READY: trn64znfNx
 
 All three source-pinned theoretical claims pass an independent CPU certificate with deterministic negative controls: WIRE reduces to RoPE on grid spectral coordinates, randomized WIRE has the stated effective-resistance expectation with a fourth-order correction, and separate query/key rotations preserve linear-attention associativity.
 
