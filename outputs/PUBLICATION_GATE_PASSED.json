@@ -1,0 +1,51 @@
+{
+  "claim_outcomes": {
+    "claim_1_grid_rope_recovery": {
+      "max_eigen_residual": 3.0281332996651145e-14,
+      "max_orthogonality_error": 1.54307464565917e-14,
+      "max_rotation_error": 2.6645352591003757e-15,
+      "negative_control_only_query_rotation_gap": 0.148121432470264,
+      "one_d_rotation_pairs": 898605,
+      "outcome": "passed",
+      "path_eigen_cells": 299535,
+      "scope": "all path graphs P_N for N=2..96 plus every node pair on 121 Cartesian grids (2..12 by 2..12)",
+      "strictly_monotone_fiedler_modes": 95,
+      "two_d_rotation_pairs": 421201
+    },
+    "claim_2_effective_resistance_expectation": {
+      "cycle_pairs": 89435,
+      "expectation_cells": 30,
+      "max_cycle_spectral_vs_electrical_error": 3.6415315207705135e-13,
+      "max_gaussian_closed_form_error": 0.0,
+      "max_path_spectral_vs_electrical_error": 1.9042545318370685e-12,
+      "max_small_omega_fourth_order_constant": 220.4985083409383,
+      "monte_carlo_mean_error": 0.0006409675567778939,
+      "negative_control_independent_phase_gap": 0.0009515899759297008,
+      "negative_control_unscaled_spectral_gap": 61.00000000000001,
+      "outcome": "passed",
+      "path_pairs": 89439,
+      "scope": "all ordered pairs on paths P_N (N=2..64), cycles C_N (N=3..64), plus 100,000 Gaussian score samples"
+    },
+    "claim_3_linear_attention_compatibility": {
+      "author_release_linear_path_attested": true,
+      "cases": 372,
+      "direct_token_pairs_checked": 137268,
+      "max_direct_vs_associated_error": 1.7053025658242404e-13,
+      "negative_control_associated_state_entries": 112,
+      "negative_control_pairwise_bias_entries": 4096,
+      "outcome": "passed",
+      "scope": "all sequence lengths 2..32; 4 even feature dimensions; 3 value dimensions; ELU+1 feature map after independent node rotations"
+    }
+  },
+  "hardware": "CPU only; Python standard library",
+  "paper": "trn64znfNx",
+  "publication_gate_passed": true,
+  "source_manifest": {
+    "pdf_sha256": "3eb6899ac0da995483dfba1eafe1ed625a1673d638d498882bcf741709f3415f",
+    "source_path_attested": true,
+    "upstream_commit": "4ac067eb38272543b0cdd7591d630399ff37bce4"
+  },
+  "status": "passed",
+  "tests_passed": true,
+  "title": "Rotary Position Encodings for Graphs"
+}
